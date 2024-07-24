@@ -1,0 +1,42 @@
+
+
+In order to run java program from command line we have to follow below steps:
+
+1) Head over to directory where .java file is present
+
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src> cd main
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main> cd java
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java> cd com
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com> cd assignment
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com\assignment> cd RunJavaProgramSolution
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com\assignment\RunJavaProgramSolution>
+
+
+
+2) Then first we need to compile the program for that use javac className.java command
+
+PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com\assignment\RunJavaProgramSolution> javac Test.java
+
+
+
+3) This will generate ClassName.class file in same directory which is compiled version of .java file.
+
+ PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com\assignment\RunJavaProgramSolution> javac Test.java
+
+
+
+4) Now we have to run the compiled  .java file using command as java ClassName.java
+   This will execute main method of Test class and print    Hi there!. I successfully compiled and run
+
+  PS C:\Users\ACER\Desktop\CustomerServiceSystem\src\main\java\com\assignment\RunJavaProgramSolution> java Test.java
+  Hi there!. I successfully compiled and run
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ # In summary to run java program from command line
+
+ 1] Compile the Java source file using the javac (Java Compiler) command.  -> javac ClassName.java
+
+ 2]  Run the compiled Java class using the java command.  -> java ClassName.java
